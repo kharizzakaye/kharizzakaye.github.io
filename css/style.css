@@ -178,6 +178,8 @@ a:hover
 {
     padding: 10px;
     box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
+    max-width: 300px;
+    max-height: 240px;
 }
 
 .thumbnail-card:hover
@@ -212,7 +214,12 @@ a:hover
 
 .card-description-subtitle
 {
+    font-weight: normal;
     font-size: 16px;
+	line-height: 1.2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
     margin: 0px;
     color: #757575;
 }
