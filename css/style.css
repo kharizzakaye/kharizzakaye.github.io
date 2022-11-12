@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fafafa;
+}
+
+.TurnToCaps
+{
+    text-transform: uppercase;
+}
+
+
+
+/* Start Navigation */
+.navbar-link
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    /* text-transform: uppercase; */
+    font-weight: 400;
+}
+
+/* .navbar
+{
+    background-color: #3d0c07;
+} */
+
+#BrandName
+{
+    color: #ffffff
+}
+
+a:hover
+{
+    color: #ffff00;
+    font-weight: 700;
+}
+
+#BrandName
+{
+    margin-bottom: 0px;
+    font-size: larger;
+}
+
+#btn_hireMe
+{
+    /* width: 150px; */
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.active
+{
+    color: #ffff00;
+    font-weight: 700;
+}
+
+/* Start Hero */
+.hero
+{
+    /* height: 100vh; */
+    /* background-image:url(../images/background.svg);
+    background-size:cover;
+    background-repeat:no-repeat; */
+    position:relative;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    height: 700px;
+    background-color: #ffffff;
+}
+/* .hero .overlay
+{
+    background-color:#000;
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:1;
+    left:0;
+    right:0;
+    top:0;
+    opacity:0.5;
+} */
+.hero .content
+{
+    /* color:#fff; */
+    z-index:2;
+    text-align:center;
+}
+.hero .content h1
+{
+    font-size:45px;
+    font-weight:700;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero .content p
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Start Services */
+#WhatIdo
+{
+    padding: 50px 0px 50px 0px;
+}
+
+#WhatIdoImg
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#ServicesSection
+{
+    background-color: #3d0c07;
+}
+
+#ServicesSection h2, h3
+{
+    color: #ffffff;
+}
+
+#ServicesSection p
+{
+    color: #d3d3d3;
+}
+
+.ServicesIdo
+{
+    padding:30px 30px 0px 30px;
+}
+
+.services_icon
+{
+    height: 90px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.service_name
+{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+/* Start Portfolio */
+#PortfolioSection
+{
+    padding: 60px 0px 50px 0px;
+}
+
+#PortfolioTitle
+{
+    font-weight: 700;
+}
+
+#PortfolioImg
+{
+    margin: 20px 0px 30px 0px;
+}
+
+#PortfolioSection a
+{
+    text-decoration: none;
+}
+
+/* Start Portfolio cards*/
+.thumbnail-card
+{
+    padding: 10px;
+    box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
+}
+
+.thumbnail-card:hover
+{
+    box-shadow: 0 4px 8px 0px rgb(0 0 0 / 20%);
+}
+
+.thumbnail-link
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.card-description
+{
+    padding: 10px 15px 5px 15px;
+    color: #333333;
+    font-size: 18px;
+}
+
+.card-description-title
+{
+    font-weight: normal;
+    font-size: 18px;
+	line-height: 1.2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+    margin: 0px;
+    color: #333333;
+}
+
+.card-description-subtitle
+{
+    font-size: 16px;
+    margin: 0px;
+    color: #757575;
+}
+
+/* .cards-list 
+{
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  
+.card 
+{
+    margin: 10px auto;
+    width: 300px;
+    height: 250px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+}
+  
+.card .card_image 
+{
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+}
+  
+.card .card_image img 
+{
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+  
+.card .card_title 
+{
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+}
+
+.card:hover
+{
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+                -5px -5px 30px 15px rgba(0,0,0,0.22);
+} */
+
+.title-white
+{
+    color: white;
+}
+
+.title-black
+{
+    color: black;
+}
+
+/* @media all and (max-width: 500px)
+{
+    .card-list 
+    {
+        On small screens, we are no longer using row direction but column
+        flex-direction: column;
+    }
+} */
+
+/*
+.card
+{
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    transition: 0.4s;
+}
+*/
+
+/* Start Portfolio Page */
+.portfolio-page-hero
+{
+    /* height: 100vh; */
+    /* background-image:url(../images/background.svg);
+    background-size:cover;
+    background-repeat:no-repeat; */
+    position:relative;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    padding-top: 80px;
+    height: 500px;
+    background-color: #ffffff;
+
+    border-bottom:  #dddddd solid 1px;
+    box-shadow: 0 1px 3px 0px rgb(0 0 0 / 20%);
+}
+
+
+/* Start About */
+#AboutSection
+{
+    padding: 30px 0px 50px 0px;
+    background-color: #3d0c07;
+}
+
+#AboutSection h2, h3
+{
+    color: #ffffff;
+}
+
+#AboutSection p
+{
+    color: #d3d3d3;
+}
+
+#AboutTitle
+{
+    line-height: 40px;
+    font-weight: 700;
+}
+
+#KharizzaWho
+{
+    color: #ffff00;
+}
+
+/*  contact page*/
+#ContactPage
+{
+    /* height: calc(100vh - 50px); */
+    /* padding-top: 50px; */
+    margin-top: 60px;
+}
+
+#ContactHey
+{
+    padding: 50px;
+}
+
+.ContactPageLogos
+{
+    width: 50px;
+    margin: 5px 5px 5px 5px;
+}
+
+#ContactPage ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#ContactPage p
+{
+    margin-bottom: 40px;
+}
+
+#ContactPage a
+{
+    text-decoration: none;
+}
+
+#ContactPage a:hover
+{
+    color: #000000;
+    font-weight: 700;
+}
+
+/*  about page*/
+/* #AboutPage
+{
+    height: calc(100vh - 50px);
+    padding-top: 70px;
+    margin-top: 60px;
+} */
+
+#AboutHey
+{
+    padding: 50px;
+}
+
+#AboutHey h5
+{
+    color: maroon;
+}
+
+#WhoIsKhar
+{
+    text-transform: uppercase;
+}
+
+.FactsKhar
+{
+    margin-top: 40px;
+}
