@@ -37,7 +37,7 @@ body
 a:hover
 {
     color: #ffff00;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 #BrandName
@@ -176,10 +176,10 @@ a:hover
 /* Start Portfolio cards*/
 .thumbnail-card
 {
-    padding: 10px;
+    padding: 5px;
     box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
-    max-width: 300px;
-    max-height: 240px;
+    /* max-width: 300px;
+    max-height: 240px; */
 }
 
 .thumbnail-card:hover
@@ -373,7 +373,7 @@ a:hover
 
 #ContactHey
 {
-    padding: 50px;
+    padding: 20px;
 }
 
 .ContactPageLogos
@@ -430,4 +430,23 @@ a:hover
 .FactsKhar
 {
     margin-top: 40px;
+}
+
+
+#ContactSection
+{
+    padding: 60px 0px 50px 0px;
+    background-color: #ffffff;
+}
+
+.contact
+{
+    position:relative;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    /* height: 700px;
+    background-color: #ffffff; */
 }
